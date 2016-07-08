@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 800px; /**/
+  padding: 50px; /**/
+  background-image: url('../images/stormy-ocean.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: -10px;
+}
+
+.hero {
+  border: 2px solid white;
+  background: rgba(23, 45, 56, 0.48);
+  padding: 190px;
+  height: 600px;
+  box-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+.welcome { /* The Odyssey */
+  color: white;
+  font-family: 'Open Sans', serif;
+  font-weight: 200;
+  letter-spacing: 10px;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+.kicker { /* English Translation with the Greek Text */
+  text-align: center;
+  font-family: 'Open Sans', serif;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.container {
+  background-color: rgb(42, 98, 125);
+  margin-top: -10px;
+  min-height: 800px;
+}
+#about {
+  position: relative;
+}
+.text {
+  position: relative;
+  background-color: #e6e6e6;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 0px;
+}
+
+p {
+  font-family: 'Open Sans', serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #333333;
+  padding-right: 20px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 35px;
+  max-width: 700px;
+  line-height: 40px;
+}
+
+/*bookstyle.css*/
+a {
+    border: none;
+    font-family: 'Open Sans', serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #333333;
+    text-decoration: none;
+}
+
+#gr-h {
+  display: none;
+}
+.eng-v {
+  width: 760px;
+  font-family: 'Open Sans', serif;
+  padding-right: 20px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 35px;
+  max-width: 700px;
+}
+
+.gr-v {
+  font-family: 'Cardo', serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: rgb(42, 98, 125);
+  padding-left: 65px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  display: none;
+}
+
+h1 {
+  font-family: 'Open Sans', serif;
+  font-weight: lighter;
+  padding: 20px;
+  color: #e6e6e6;
+  margin: 5px auto 20px auto;
+}
+.english-h {
+  font-family: 'Open Sans', serif;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #e6e6e6;
+  padding-top: 75px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.greek-h {
+  font-family: 'Cardo', serif;
+  font-size: 16px;
+  letter-spacing: .13em;
+  font-weight: lighter;
+  color: rgb(42, 98, 125);
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+.book-link-div {
+  display: block;
+  text-align: center;
+}
+.book-link {
+  font-family: 'Open Sans', serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(42, 98, 125);
+  padding: 5px 20px;
+  border: 1px solid #e6e6e6;
+  transition-property: border;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 300ms;
+}
+.book-link:hover {
+  border: 1px solid rgb(42, 98, 125);
+}
+
+/*Nav content*/
+.drop-nav { /*The overall dropbox nav menu*/
+  position: absolute;
+  display: inline;
+  float: left;
+  z-index: 1;
+}
+.drop-icon { /*The button that triggers the dropdown*/
+  font-family: 'Open Sans', serif;
+  letter-spacing: .15em;
+  font-weight: 100;
+  font-size: 16px;
+  color: white;
+  padding:16px;
+  vertical-align: baseline;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 25px;
+  border: 1px solid rgb(42, 98, 125);
+  background: rgb(42, 98, 125);
+  min-width: 125px;
+  cursor: pointer;
+}
+.drop-links { /*The box in which the links are/opacity: 0;*/
+  position: absolute;
+  margin-left: 50px;
+  background: rgb(42, 98, 125);
+  min-width: 125px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 300ms;
+}
+.drop-links a { /*The links themselves*/
+  color: #e6e6e6;
+  font-size: 12px;
+  letter-spacing: .2em;
+  padding-top: 10px;
+  margin-left: 25px;
+  text-decoration: none;
+  display:block;
+}
+
+.drop-links:hover .drop-icon {
+  background-color: 1px solid rgb(42, 98, 125);
+}
+.drop-nav:hover .drop-links {/*The box in which the links are/opacity: 1;*/
+  opacity: 1;
+}
+.drop-nav:hover .drop-icon {
+  background-color: rgb(42, 98, 125);
+}
+.drop-links a:hover {
+  text-shadow: 1px 1px 2px #000000;
+}
+button:focus {/*Gets rid of the outline on the menu/lang buttons*/
+  outline: none;
+}
+#fixed-nav {
+  position: fixed;
+}
