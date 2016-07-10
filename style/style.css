@@ -155,7 +155,7 @@ h1 {
 
 /*Nav content*/
 .drop-nav { /*The overall dropbox nav menu*/
-  position: absolute;
+  position: fixed;
   display: inline;
   float: left;
   z-index: 1;
@@ -212,6 +212,35 @@ h1 {
 button:focus {/*Gets rid of the outline on the menu/lang buttons*/
   outline: none;
 }
-#fixed-nav {
+
+
+
+.arrow {
   position: fixed;
+  top: 50%;
+  outline: none;
+  border: none;
+  background: rgb(42, 98, 125);
+  z-index: 1;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 200ms;
+  cursor: pointer;
 }
+.arrow:hover {
+  opacity: 1;
+}
+#r-arrow {
+  right: 20px;
+
+}
+#l-arrow {
+  left: 20px;
+  transform: rotate(180deg);
+}
+/*Change quotes from <em> to block elements, then italicize in CSS
+.quote {
+  text-indent: 5px;
+}*/

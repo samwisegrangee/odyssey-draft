@@ -6,7 +6,7 @@
 </head>
 <body>
   <div class="container">
-    <div id="fixed-nav" class="drop-nav">
+    <div class="drop-nav">
       <!--Get Menu and the Bars level<svg fill="#ffffff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 0h24v24H0z" fill="none"/>
         <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
@@ -39,9 +39,23 @@
         <!--<a href="#bk22">Book XXII</a>-->
       </div>
     </div>
+
+
+    <button class="arrow" id="r-arrow">
+      <svg fill="#ffffff" height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
+        <path d="M0-.25h24v24H0z" fill="none"/></svg>
+    </button>
+
+    <button class="arrow" id="l-arrow">
+      <svg fill="#ffffff" height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
+        <path d="M0-.25h24v24H0z" fill="none"/></svg>
+    </button>
+
   <div class="text">
     <div id="bk01" class="eng-h">
-      <h1 class="english-h" align="CENTER"><a href="javascript:toggleDiv('gr-h');">The Odyssey, Book I</a></h1>
+      <h1 class="english-h" align="CENTER"><a href="javascript:toggleDiv('gr-h');"><strong>The Odyssey, Book I</strong></a></h1>
     </div>
     <div id="gr-h">
       <h1 class="greek-h" align="CENTER">Οδύσσεια, Βίβλος Α</h1>
@@ -172,57 +186,132 @@
     <div class="gr-v" id="gr-31">τοῦ ὅ γ' ἐπιμνησθεὶς ἔπε' ἀθανάτοισι μετηύδα:</div>
     <br>
     <div class="eng-v" id="eng-32"><a href="javascript:toggleDiv('gr-32');">
-      “Look you now, how ready mortals are to blame the gods.</a></div>
+      <em class="quote">“Look you now, how ready mortals are to blame the gods.</em></a></div>
     <div class="gr-v" id="gr-32">"ὢ πόποι, οἷον δή νυ θεοὺς βροτοὶ αἰτιόωνται:</div>
 
     <div class="eng-v" id="eng-33"><a href="javascript:toggleDiv('gr-33');">
-      It is from us, they say, that evils come, but they even of themselves,</a></div>
+      <em class="quote">It is from us, they say, that evils come, but they even of themselves,</em></a></div>
     <div class="gr-v" id="gr-33">ἐξ ἡμέων γάρ φασι κάκ' ἔμμεναι, οἱ δὲ καὶ αὐτοὶ</div>
 
     <div class="eng-v" id="eng-34"><a href="javascript:toggleDiv('gr-34');">
-      through their own blind folly, have sorrows beyond that which is ordained.</a></div>
+      <em class="quote">through their own blind folly, have sorrows beyond that which is ordained.</em></a></div>
     <div class="gr-v" id="gr-34">σφῇσιν ἀτασθαλίῃσιν ὑπὲρ μόρον ἄλγε' ἔχουσιν,</div>
 
     <div class="eng-v" id="eng-35"><a href="javascript:toggleDiv('gr-35');">
-      Even as now Aegisthus, beyond that which was ordained, took to himself</a></div>
+      <em class="quote">Even as now Aegisthus, beyond that which was ordained, took to himself</em></a></div>
     <div class="gr-v" id="gr-35">ὡς καὶ νῦν Αἴγισθος ὑπὲρ μόρον Ἀτρεί̈δαο</div>
 
     <div class="eng-v" id="eng-36"><a href="javascript:toggleDiv('gr-36');">
-      the wedded wife of the son of Atreus, and slew him on his return,</a></div>
+      <em class="quote">the wedded wife of the son of Atreus, and slew him on his return,</em></a></div>
     <div class="gr-v" id="gr-36">γῆμ' ἄλοχον μνηστήν, τὸν δ' ἔκτανε νοστήσαντα,</div>
 
     <div class="eng-v" id="eng-37"><a href="javascript:toggleDiv('gr-37');">
-      though well he knew of sheer destruction, seeing that we spake to him before,</a></div>
+      <em class="quote">though well he knew of sheer destruction, seeing that we spake to him before,</em></a></div>
     <div class="gr-v" id="gr-37">εἰδὼς αἰπὺν ὄλεθρον, ἐπεὶ πρό οἱ εἴπομεν ἡμεῖς,</div>
 
     <div class="eng-v" id="eng-38"><a href="javascript:toggleDiv('gr-38');">
-      sending Hermes, the keen-sighted Argeiphontes,</a></div>
+      <em class="quote">sending Hermes, the keen-sighted Argeiphontes,</em></a></div>
     <div class="gr-v" id="gr-38">Ἑρμείαν πέμψαντες, ἐύσκοπον ἀργεϊφόντην,</div>
 
     <div class="eng-v" id="eng-39"><a href="javascript:toggleDiv('gr-39');">
-      that he should neither slay the man nor woo his wife;</a></div>
+      <em class="quote">that he should neither slay the man nor woo his wife;</em></a></div>
     <div class="gr-v" id="gr-39">μήτ' αὐτὸν κτείνειν μήτε μνάασθαι ἄκοιτιν:</div>
-     <br>
+
     <div class="eng-v" id="eng-40"><a href="javascript:toggleDiv('gr-40');">
-      for from Orestes shall come vengeance for the son of Atreus</a></div>
+      <em class="quote">for from Orestes shall come vengeance for the son of Atreus</em></a></div>
     <div class="gr-v" id="gr-40">ἐκ γὰρ Ὀρέσταο τίσις ἔσσεται Ἀτρεί̈δαο,</div>
 
     <div class="eng-v" id="eng-41"><a href="javascript:toggleDiv('gr-41');">
-      when once he has come to manhood and longs for his own land.</a></div>
+      <em class="quote">when once he has come to manhood and longs for his own land.</em></a></div>
     <div class="gr-v" id="gr-41">ὁππότ' ἂν ἡβήσῃ τε καὶ ἧς ἱμείρεται αἴης.</div>
 
     <div class="eng-v" id="eng-42"><a href="javascript:toggleDiv('gr-42');">
-      So Hermes spoke, but for all his good intent he prevailed not upon the heart of Aegisthus;</a></div>
+      <em class="quote">So Hermes spoke, but for all his good intent he prevailed not upon the heart of Aegisthus;</em></a></div>
     <div class="gr-v" id="gr-42">ὣς ἔφαθ' Ἑρμείας, ἀλλ' οὐ φρένας Αἰγίσθοιο</div>
 
     <div class="eng-v" id="eng-43"><a href="javascript:toggleDiv('gr-43');">
-      and now he has paid the full price of all.”</a></div>
+      <em class="quote">and now he has paid the full price of all.”</em></a></div>
     <div class="gr-v" id="gr-43">πεῖθ' ἀγαθὰ φρονέων: νῦν δ' ἁθρόα πάντ' ἀπέτισεν."</div>
+
+    <div class="eng-v" id="eng-44"><a href="javascript:toggleDiv('gr-44');">
+      Then the goddess, flashing-eyed Athena, answered him:</a></div>
+    <div class="gr-v" id="gr-44">τὸν δ' ἠμείβετ' ἔπειτα θεά, γλαυκῶπις Ἀθήνη:</div>
+    <br>
+    <div class="eng-v" id="eng-45"><a href="javascript:toggleDiv('gr-45');">
+      <em class="quote">“Father of us all, thou son of Cronos, high above all lords,</em></a></div>
+    <div class="gr-v" id="gr-45">"ὦ πάτερ ἡμέτερε Κρονίδη, ὕπατε κρειόντων,</div>
+
+    <div class="eng-v" id="eng-46"><a href="javascript:toggleDiv('gr-46');">
+      <em class="quote">aye, verily that man lies low in a destruction that is his due;</em></a></div>
+    <div class="gr-v" id="gr-46">καὶ λίην κεῖνός γε ἐοικότι κεῖται ὀλέθρῳ:</div>
+
+    <div class="eng-v" id="eng-47"><a href="javascript:toggleDiv('gr-47');">
+      <em class="quote">so, too, may any other also be destroyed who does such deeds.</em></a></div>
+    <div class="gr-v" id="gr-47">ὡς ἀπόλοιτο καὶ ἄλλος, ὅτις τοιαῦτά γε ῥέζοι:</div>
+
+    <div class="eng-v" id="eng-48"><a href="javascript:toggleDiv('gr-48');">
+      <em class="quote">But my heart is torn for wise Odysseus,</em></a></div>
+    <div class="gr-v" id="gr-49">ἀλλά μοι ἀμφ' Ὀδυσῆι δαί̈φρονι δαίεται ἦτορ,</div>
+
+    <div class="eng-v" id="eng-50"><a href="javascript:toggleDiv('gr-50');">
+      <em class="quote">hapless man, who far from his friends has long been suffering woes</em></a></div>
+    <div class="gr-v" id="gr-50">δυσμόρῳ, ὃς δὴ δηθὰ φίλων ἄπο πήματα πάσχει</div>
+
+    <div class="eng-v" id="eng-51"><a href="javascript:toggleDiv('gr-51');">
+      <em class="quote">in a sea-girt isle, where is the navel of the sea.</em></a></div>
+    <div class="gr-v" id="gr-51">νήσῳ ἐν ἀμφιρύτῃ, ὅθι τ' ὀμφαλός ἐστι θαλάσσης.</div>
+
+    <div class="eng-v" id="eng-51"><a href="javascript:toggleDiv('gr-51');">
+      <em class="quote">'Tis a wooded isle, and therein dwells a goddess,</em></a></div>
+    <div class="gr-v" id="gr-51">νῆσος δενδρήεσσα, θεὰ δ' ἐν δώματα ναίει,</div>
+
+    <div class="eng-v" id="eng-52-53"><a href="javascript:toggleDiv('gr-52-53');">
+      <em class="quote">daughter of Atlas of baneful mind, who knows the depths of every sea,</em></a></div>
+      <div class="gr-v" id="gr-52-53">Ἄτλαντος θυγάτηρ ὀλοόφρονος, ὅς τε θαλάσσης
+        <br>
+        πάσης βένθεα οἶδεν, ἔχει δέ τε κίονας αὐτὸς</div>
+
+    <div class="eng-v" id="eng-54"><a href="javascript:toggleDiv('gr-54');">
+      <em class="quote">and himself holds the tall pillars which keep earth and heaven apart.</em></a></div>
+    <div class="gr-v" id="gr-54">μακράς, αἳ γαῖάν τε καὶ οὐρανὸν ἀμφὶς ἔχουσιν.</div>
+
+    <div class="eng-v" id="eng-55"><a href="javascript:toggleDiv('gr-55');">
+      <em class="quote">His daughter it is that keeps back that wretched, sorrowing man;</em></a></div>
+    <div class="gr-v" id="gr-55">τοῦ θυγάτηρ δύστηνον ὀδυρόμενον κατερύκει,</div>
+
+    <div class="eng-v" id="eng-56"><a href="javascript:toggleDiv('gr-56');">
+      <em class="quote">and ever with soft and wheedling words</em></a></div>
+    <div class="gr-v" id="gr-56">αἰεὶ δὲ μαλακοῖσι καὶ αἱμυλίοισι λόγοισιν</div>
+
+    <div class="eng-v" id="eng-57"><a href="javascript:toggleDiv('gr-57');">
+      <em class="quote">she beguiles him that he may forget Ithaca. But Odysseus,</em></a></div>
+    <div class="gr-v" id="gr-57">θέλγει, ὅπως Ἰθάκης ἐπιλήσεται: αὐτὰρ Ὀδυσσεύς,</div>
+
+    <div class="eng-v" id="eng-58"><a href="javascript:toggleDiv('gr-58');">
+      <em class="quote">in his longing to see were it but the smoke leaping up</em></a></div>
+    <div class="gr-v" id="gr-58">ἱέμενος καὶ καπνὸν ἀποθρῴσκοντα νοῆσαι</div>
+
+    <div class="eng-v" id="eng-59"><a href="javascript:toggleDiv('gr-59');">
+      <em class="quote">from his own land, yearns to die. Yet,</em></a></div>
+    <div class="gr-v" id="gr-59">ἧς γαίης, θανέειν ἱμείρεται. οὐδέ νυ σοί περ</div>
+
+    <div class="eng-v" id="eng-60"><a href="javascript:toggleDiv('gr-60');">
+      <em class="quote">thy heart doth not regard it, Olympian. Did not Odysseus</em></a></div>
+    <div class="gr-v" id="gr-60">ἐντρέπεται φίλον ἦτορ, Ὀλύμπιε. οὔ νύ τ' Ὀδυσσεὺς</div>
+
+    <div class="eng-v" id="eng-61"><a href="javascript:toggleDiv('gr-61');">
+      <em class="quote">beside the ships of the Argives offer thee sacrifice without stint</em></a></div>
+    <div class="gr-v" id="gr-61">Ἀργείων παρὰ νηυσὶ χαρίζετο ἱερὰ ῥέζων</div>
+
+    <div class="eng-v" id="eng-62"><a href="javascript:toggleDiv('gr-62');">
+      <em class="quote">in the broad land of Troy? Wherefore then didst thou conceive such wrath against him, O Zeus?”</em></a></div>
+    <div class="gr-v" id="gr-62">Τροίῃ ἐν εὐρείῃ; τί νύ οἱ τόσον ὠδύσαο, Ζεῦ;"</div>
+    <br>
     <br>
     <div class="eng-v" align="CENTER"><a href="../index.html">...</a></div>
       <br>
       <div class="book-link-div">
-        <a href="bk02.html" class="book-link">Book II</a>
+        <a href="bk02.html" class="book-link"><strong>Book II</strong></a>
       </div>
       <br>
       <br>
