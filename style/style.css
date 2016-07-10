@@ -40,6 +40,9 @@ header {
   letter-spacing: 3px;
   color: white;
   text-shadow: 2px 2px 4px #000000;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
