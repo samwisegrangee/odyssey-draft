@@ -15,33 +15,27 @@ $(document).ready(function(){
 	});
 
 });
-
 //Toggle visibility for Greek verses by Id
 function toggleDiv(divId) {
 	$("#"+divId).toggle(1000);
 };
-
-$('.lang-btn').click(function(){
-	$('.gr-v').toggle(1000);
-	$('.eng-v').toggle(1000);
+//Fade out all English verses then fadeIn Greek verses (by class).
+$('.gr-btn').click(function(){
+	$('.eng-v').fadeOut(500, function(){
+		$('.gr-v').fadeIn(1000);
+	});
+});
+//Fade out all English verses then fadeIn Greek verses (by class).
+$('.eng-btn').click(function(){
+	$('.gr-v').fadeOut(500, function(){
+		$('.eng-v').fadeIn(1000);
+	});
 });
 
 
 
-  //Toggle visibility for Greek verses by Class
-  //http://jsfiddle.net/krY56/1/ toggle display:none
 
-  //$(document).ready(function(){
 
-//$("gr-v").hide();
-
-  //$("gr-en").click(function(){
-
-    //$("gr-v").toggle();
-
-  //});
-
-//});
 
 	//Give a parallax effect on the .hero, but the stacking order needs work to hide the edges.
 	//$(window).scroll(function(){

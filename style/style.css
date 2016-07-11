@@ -45,13 +45,12 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-
 .container {
   background-color: rgb(42, 98, 125);
-  margin-top: -10px;
+  margin-top: -20px;
   min-height: 800px;
 }
-#about {
+#about-title {
   position: relative;
 }
 .text {
@@ -84,9 +83,9 @@ a {
     color: #333333;
     text-decoration: none;
 }
-
 #gr-h {
   display: none;
+  padding-left: 0px;
 }
 .eng-v {
   width: 760px;
@@ -97,7 +96,6 @@ a {
   margin-right: 35px;
   max-width: 700px;
 }
-
 .gr-v {
   font-family: 'Cardo', serif;
   font-weight: 100;
@@ -112,16 +110,17 @@ a {
 h1 {
   font-family: 'Open Sans', serif;
   font-weight: lighter;
-  padding: 20px;
   color: #e6e6e6;
-  margin: 5px auto 20px auto;
+}
+.xtra-space {
+  height: 75px;
+  width: 800px;
 }
 .english-h {
   font-family: 'Open Sans', serif;
   font-size: 30px;
   font-weight: lighter;
   color: #e6e6e6;
-  padding-top: 75px;
   text-align: center;
   margin-bottom: 0px;
 }
@@ -133,6 +132,7 @@ h1 {
   color: rgb(42, 98, 125);
   padding-top: 0px;
   padding-bottom: 30px;
+  padding-left: 0px;
 }
 .book-link-div {
   display: block;
@@ -155,15 +155,15 @@ h1 {
 }
 
 /*Language Toggle*/
-.lang-nav {
+.lang-nav { /*Mirrors .drop-nav*/
   position: fixed;
   display: inline-block;
   z-index: 1;
   top: 3%;
   right: 8%;
 }
-.lang-btn {
-  font-family: 'Open Sans', serif;
+.lang-btn { /*mirrors .drop-icon*/
+  font-family: 'Open Sans', white, serif;
   letter-spacing: .15em;
   font-weight: 100;
   font-size: 16px;
@@ -179,11 +179,18 @@ h1 {
   transition-delay: 300ms;
   cursor: pointer;
 }
-
+.gr-btn, .eng-btn {
+  color: white;
+}
 .lang-btn:hover {
   background: rgb(42, 98, 125);
 }
-
+.gr-btn:hover {
+  text-shadow: 1px 1px 2px #000000;
+}
+.eng-btn:hover {
+  text-shadow: 1px 1px 2px #000000;
+}
 /*Nav content*/
 #fixed-nav { /*Keep this*/
   position: fixed;
@@ -226,7 +233,7 @@ h1 {
   color: #e6e6e6;
   font-size: 12px;
   letter-spacing: .2em;
-  padding-top: 10px;
+  padding-bottom: 10px;
   margin-left: 25px;
   text-decoration: none;
   display:block;
