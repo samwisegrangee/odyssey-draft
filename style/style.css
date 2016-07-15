@@ -84,6 +84,10 @@ a {
     color: #333333;
     text-decoration: none;
 }
+/*.gr-a {
+  font-family: 'Cardo', serif;
+  color: rgb(42, 98, 125);
+}*/
 #gr-h {
   display: none;
   padding-left: 0px;
@@ -102,7 +106,7 @@ a {
   font-weight: 100;
   font-size: 20px;
   color: rgb(42, 98, 125);
-  padding-left: 65px;
+  padding-left: 50px;
   padding-top: 5px;
   padding-bottom: 15px;
   display: none;
@@ -183,6 +187,10 @@ h1 {
 .gr-btn, .eng-btn {
   color: white;
 }
+.gr-btn:active, .eng-btn:active {
+  text-shadow: 1px 1px 2px #000000;
+}
+
 .lang-btn:hover {
   background: rgb(42, 98, 125);
 }
@@ -294,7 +302,3 @@ button:focus {/*Gets rid of the outline on the menu/lang buttons*/
   left: 0px;
   transform: rotate(180deg);
 }
-/*Change quotes from <em> to block elements, then italicize in CSS
-.quote {
-  text-indent: 5px;
-}*/
