@@ -78,20 +78,17 @@ p {
 /*bookstyle.css*/
 a {
     border: none;
-    font-family: 'Open Sans', serif;
     font-size: 20px;
     font-weight: lighter;
-    color: #333333;
+    color: inherit;
+    font-family: inherit;
     text-decoration: none;
 }
 /*.gr-a {
   font-family: 'Cardo', serif;
   color: rgb(42, 98, 125);
 }*/
-#gr-h {
-  display: none;
-  padding-left: 0px;
-}
+
 .eng-v {
   width: 760px;
   font-family: 'Open Sans', serif;
@@ -109,7 +106,11 @@ a {
   padding-left: 50px;
   padding-top: 5px;
   padding-bottom: 15px;
+  /*display: none;*/
+}
+.underverse {
   display: none;
+  margin-left: 60px;
 }
 
 h1 {
@@ -121,15 +122,14 @@ h1 {
   height: 75px;
   width: 800px;
 }
-.english-h {
+.eng-h {
   font-family: 'Open Sans', serif;
   font-size: 30px;
   font-weight: lighter;
-  color: #e6e6e6;
   text-align: center;
   margin-bottom: 0px;
 }
-.greek-h {
+.gr-h {
   font-family: 'Cardo', serif;
   font-size: 16px;
   letter-spacing: .13em;
