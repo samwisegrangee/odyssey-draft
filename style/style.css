@@ -1,23 +1,22 @@
 /*To Do: Consolidate styles for common elements*/
-
 * {
   box-sizing: border-box;
 }
+
 html, body {
   margin: 0;
   padding: 0;
 }
 
 header {
-  height: 800px; /**/
-  padding: 50px; /**/
+  height: 800px;
+  padding: 50px;
   background-image: url('../images/stormy-ocean.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin-bottom: -10px;
 }
-
 .hero {
   border: 2px solid white;
   background: rgba(23, 45, 56, 0.48);
@@ -84,10 +83,6 @@ a {
     font-family: inherit;
     text-decoration: none;
 }
-/*.gr-a {
-  font-family: 'Cardo', serif;
-  color: rgb(42, 98, 125);
-}*/
 
 .eng-v {
   width: 760px;
@@ -97,37 +92,52 @@ a {
   margin-left: 50px;
   margin-right: 35px;
   max-width: 700px;
+  display: block;
 }
 .gr-v {
   font-family: 'Cardo', serif;
   font-weight: 100;
-  font-size: 20px;
   color: rgb(42, 98, 125);
   padding-left: 50px;
   padding-top: 5px;
   padding-bottom: 15px;
-  /*display: none;*/
-}
-.underverse {
-  display: none;
-  margin-left: 60px;
+  display: block;
 }
 
-h1 {
-  font-family: 'Open Sans', serif;
-  font-weight: lighter;
-  color: #e6e6e6;
+.gr-uh, .eng-uh {
+  display: none;
+  margin-left: 0px;
 }
+
+
+.gr-underverse, .gr-uh {
+  font-family: 'Cardo', serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: rgb(42, 98, 125);
+  display: none;
+}
+.eng-underverse, .eng-uh {
+  font-family: 'Open Sans', serif;
+  padding-right: 20px;
+  color: #333333;
+  display: none;
+}
+.gr-underverse, .eng-underverse {
+  padding: 2px 50px 10px 60px;
+}
+
 .xtra-space {
   height: 75px;
   width: 800px;
 }
 .eng-h {
   font-family: 'Open Sans', serif;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: lighter;
   text-align: center;
-  margin-bottom: 0px;
+  padding-bottom: 5px;
+  display: block;
 }
 .gr-h {
   font-family: 'Cardo', serif;
@@ -239,6 +249,7 @@ h1 {
   transition-delay: 300ms;
 }
 .drop-links a { /*The links themselves*/
+  font-family: 'Open Sans', serif;
   color: #e6e6e6;
   font-size: 12px;
   letter-spacing: .2em;
