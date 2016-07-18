@@ -1,0 +1,55 @@
+/*Applies to all*/
+.eng-v, .eng-underverse, .eng-h, .eng-uh {
+  font-family: 'Open Sans', serif;
+  color: #333333;
+}
+.gr-v, .gr-underverse, .gr-h, .gr-uh {
+  font-family: 'Cardo', serif;
+  color: rgb(42, 98, 125);
+}
+/*Applies to Seen*/
+.eng-v, .gr-v {
+  display: block;
+  margin-right: 35px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.eng-h, .gr-h {
+  display: block;
+  padding-bottom: 10px;
+}
+/*Applies to Unseen*/
+.gr-uh, .eng-uh, .gr-underverse, .eng-underverse {
+  display: none;
+}
+.gr-underverse, .gr-uh {
+  font-weight: 100;
+  font-size: 20px;
+}
+.eng-underverse, .eng-uh {
+  padding-right: 20px;
+  font-weight: 100;
+}
+.gr-underverse, .eng-underverse {
+  padding: 2px 50px 10px 60px;
+}
+/*Applies to tops and bottoms*/
+.xtra-space {
+  height: 75px;
+  width: 800px;
+}
+.book-link-div {
+  display: block;
+  text-align: center;
+}
+.book-link {
+  font-family: 'Open Sans', serif;
+  font-size: 20px;
+  color: rgb(42, 98, 125);
+  padding: 5px 20px;
+  border: #d7c7b2;
+  transition: border, 500ms, ease-in-out, 300ms;
+}
+.book-link:hover {
+  border: 1px solid rgb(42, 98, 125);
+}

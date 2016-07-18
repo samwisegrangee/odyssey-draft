@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 800px;
+  padding: 50px;
+  background-image: url('../images/stormy-ocean.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: -10px;
+}
+.hero {
+  border: 2px solid white;
+  background: rgba(23, 45, 56, 0.48);
+  padding: 190px;
+  height: 600px;
+  box-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+.welcome { /* The Odyssey */
+  color: white;
+  font-family: 'Open Sans', serif;
+  font-weight: 200;
+  letter-spacing: 10px;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+.kicker { /* English Translation with the Greek Text */
+  text-align: center;
+  font-family: 'Open Sans', serif;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  background-color: rgb(42, 98, 125);
+  margin-top: -20px;
+  min-height: 800px;
+}
+#about-title {
+  position: relative;
+}
+.text {
+  position: relative;
+  background-color: #dfd1c0;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 0px;
+}
+p {
+  font-family: 'Open Sans', serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #333333;
+  padding-right: 20px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 35px;
+  max-width: 700px;
+  line-height: 40px;
+}
+a {
+    border: none;
+    font-size: 20px;
+    font-weight: lighter;
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+}
