@@ -15,44 +15,55 @@
   </header>
 
   <div class="container">
-    <div id="home-nav" class="drop-nav"> <!--Other navs have ids to separate absolute and relative -->
+
+    <div class="home-nav">
       <button class="drop-icon">MENU</button>
       <div class="drop-links">
         <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#contact">Contact</a>
         <a href="books/bk01.html">Book I</a>
         <a href="books/bk02.html">Book II</a>
-        <!--<a href="#bk03">Book III</a>-->
-        <!--<a href="#bk04">Book IV</a>-->
-        <!--<a href="#bk05">Book V</a>-->
-        <!--<a href="#bk06">Book VI</a>-->
-        <!--<a href="#bk07">Book VII</a>-->
-        <!--<a href="#bk08">Book VIII</a>-->
-        <!--<a href="#bk09">Book IX</a>-->
-        <!--<a href="#bk10">Book X</a>-->
-        <!--<a href="#bk11">Book XI</a>-->
-        <!--<a href="#bk12">Book XII</a>-->
-        <!--<a href="#bk13">Book XIII</a>-->
-        <!--<a href="#bk14">Book XIV</a>-->
-        <!--<a href="#bk15">Book XV</a>-->
-        <!--<a href="#bk16">Book XVI</a>-->
-        <!--<a href="#bk17">Book XVII</a>-->
-        <!--<a href="#bk18">Book XVIII</a>-->
-        <!--<a href="#bk19">Book XIX</a>-->
-        <!--<a href="#bk20">Book XX</a>-->
-        <!--<a href="#bk21">Book XXI</a>-->
-        <!--<a href="#bk22">Book XXII</a>-->
       </div>
     </div>
 
     <div class="text">
       <div id="about" class="xtra-space"></div>
-      <div id="about-title">
+      <div class="about-title">
         <h1 class="eng-h" align="CENTER"><a href="javascript:toggleDiv('gr-h');"><strong>About</strong></a></h1>
+        <div class="gr-underverse" id="gr-h" align="CENTER">Τί ἐστιν τοῦτο;</div>
       </div>
-      <div class="gr-underverse" id="gr-h" align="CENTER">Τί ἐστιν τοῦτο;</div>
+
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Ever since Homer wrote <em class="quote">The Odyssey</em>, it has been on the lips of bards and the minds of men. It and its twin epic <em class="quote">The Iliad</em> are two of the greatest works of literature ever committed to the page. In these two poems, Homer gives the Western world a way to talk about itself, its struggles, its longings.</p>
+
+      <blockquote class="blockquote">
+          <a href="javascript:toggleDiv('gr-q1');"><span class="quote"><em>So he spoke, and they were all hushed in silence, and were held spell-bound throughout the shadowy halls.</em></span></a>
+          <div class="gr-underverse" id="gr-q1">ὣς ἔφαθ᾽, οἱ δ᾽ ἄρα πάντες ἀκὴν ἐγένοντο σιωπῇ, <br/>κηληθμῷ δ᾽ ἔσχοντο κατὰ μέγαρα σκιόεντα.</div>
+          <br>
+          <span class="num">Book XI, 333-334</span>
+      </blockquote>
+      <p>
+        Homer laid the foundations of literature by speaking to the depths of the human condition. Before it is read from a book or recited on stage, story of Odysseus has already begun to play itself out in the life of every person. Who hasn't felt like a king deposed, adrift, wanting to go home? Who hasn't struggled with capricious gods, treacherous companions, or the harsh necessity of nature? <em class="quote">The Odyssey</em> tells a sobering and familiar tale: no matter how victorious we may have been in our fight, our trails are not yet over.
+      </p>
+      <blockquote class="blockquote">
+          <a href="javascript:toggleDiv('gr-q2');"><span class="quote"><em>Take courage, my heart: you have been through worse than this.</em></span></a>
+          <div class="gr-underverse" id="gr-q2">τέτλαθι δή, κραδίη: καὶ κύντερον ἄλλο ποτ᾽ ἔτλης.</div>
+          <br>
+          <span class="num">Book XX, 18</span>
+      </blockquote>
+      <p>
+        Throughout the centuries <em class="quote">The Odyssey</em> has inspired countless translations and commentaries. Scholarship abounds for this poem. While the interface may be robust, the aesthetic is often lacking:</p>
+        <blockquote class="blockquote">
+            <a href="javascript:toggleDiv('gr-q3');"><span class="quote"><em>So true is it that the gods do not give gracious gifts to all alike,<br>not form nor mind nor eloquence. <br>For one man is inferior in comeliness...</em></span></a>
+            <div class="gr-underverse" id="gr-q3">οὕτως οὐ πάντεσσι θεοὶ χαρίεντα διδοῦσιν <br>ἀνδράσιν, οὔτε φυὴν οὔτ’ ἂρ φρένας οὔτ’ ἀγορητύν.<br>ἄλλος μὲν γάρ τ᾽ εἶδος ἀκιδνότερος πέλει ἀνήρ</div>
+            <br>
+            <span class="num">Book VIII, 167-168</span>
+        </blockquote>
+
+
+
+      <p> This project <a href="index.html"><em class="quote" id="odyssey-site">Odyssey.io</em></a> is an attempt to bring together the wealth of resources dedicated to <em class="quote">The Odyssey</em> with a simple, pleasant, and interactive design. Here you can navigate through the books of Homer's classic text. Toggle individual verses or whole books between Greek and English. This site is idea for anyone looking for an elegant way to read <em class="quote">The Odyssey</em> while also gaining familiarity with Homer's lexicon. If that's you, let's get started...
       </p>
       <br>
       <div class="book-link-div">
@@ -61,8 +72,61 @@
       <br>
       <br>
       <br>
+
+      <div class="rose-fingers">
+        <div class="quote-box">
+          <p class="quote-text"><em>"In the Odyssey one may liken Homer to the setting sun, of which the grandeur remains without the intensity."</em>
+          <br><br>Longinus, <em>On the Sublime</em> (1st Cent. A.D.)</p>
+        </div>
+      </div>
+
+      <div id="contact" class="xtra-space"></div>
+      <div class="about-title">
+        <h1 class="eng-h" align="CENTER"><a href="javascript:toggleDiv('gr-c');"><strong>Contact</strong></a></h1>
+        <div class="gr-underverse" id="gr-c" align="CENTER">Επικοινωνία</div>
+      </div>
+      <div class="tight-box">
+        <p>
+          <a href="index.html"><em class="quote" id="odyssey-site">Odyssey.io</em></a> is very much both a work in progress and a labor of love. I'm hoping to grow it into a community of people who love Great Books and Ancient Greek as much as I do. If you have any questions or suggestions, feel free to email me. <br><br>Also, if you like this site and need of a web developer for your own project, I'm always looking to take on new clients.
+        </p>
+        <br>
+        <div class="book-link-div">
+          <a href="mailto:samuel.w.granger@gmail.com?Subject=Odyssey.io" class="book-link"><strong>Email Me</strong></a>
+        </div>
+        <br>
+        <br>
+        <br>
+      </div>
+      <div class="about-title">
+        <a class="eng-h" align="CENTER" href="javascript:toggleDiv('gr-faq');"><strong>Common Questions</strong></a>
+        <div id="gr-faq" class="gr-uh" align="CENTER">Συχνές Ερωτήσεις</div>
+      </div>
+
+      <a class="eng-v" href="javascript:toggleDiv('q-1');" ALIGN="CENTER">
+        <em class="quote">What translation are you using?</em></a>
+      <div class="gr-underverse" id="q-1">Currently I am using the A. T. Murray translation of <em>The Odyssey</em> (1919). It is a prose translation which is a bit laborious, but it is also one of the best translations in the public domain. Mostly I wanted a public translation whose syntax roughly matched the Greek versification and didn't call Odysseus "Ulysses." Murray's translation also has strong scholarly support. It was published by Harvard for their Loeb Classic Series and still remains in print. It's also used by <a href="http://www.perseus.tufts.edu/hopper/"><u>The Perseus Project</u></a>.</div>
+
+      <a class="eng-v" href="javascript:toggleDiv('q-2');" ALIGN="CENTER">
+        <em class="quote">How many books are done right now?</em></a>
+      <div class="gr-underverse" id="q-2">As this is the initial build-out of the site, right now Book I (Βίβλος Α) has its first 62 verses entered, and the first stanza of Book II is entered as well. As I'm currently using Murray's prose translation, I have to manually put in the verse breaks to roughly match the Greek versification. It takes time (especially when you're also designing and building the site), but now with the initial build-out done, I can chug away at verses.</div>
+
+      <a class="eng-v" href="javascript:toggleDiv('q-3');" ALIGN="CENTER">
+        <em class="quote">Are you working on any other works right now?</em></a>
+      <div class="gr-underverse" id="q-3">My plan is to work like Western literature: get Homer right, and then go from there. Though I do have a few more classical and medieval works in mind to add to this digital library I'm building...</div>
+
+      <a class="eng-v" href="javascript:toggleDiv('q-4');" ALIGN="CENTER">
+        <em class="quote">What do you do? Are you a teacher?</em></a>
+      <div class="gr-underverse" id="q-4">If you're wondering why I know Greek: I originally studied theology in college and I'm also Eastern Orthodox. This fluency with Greek came in handy during my freelance career, as I've edited several textbooks and monographs on Biblical Greek. I also taught for a few years at a pair of classical schools here in Grand Rapids, MI. Currently, I do a lot of illustration, design, and web development work. If you need anything in those areas, feel free to <a href="mailto:samuel.w.granger@gmail.com?Subject=Odyssey.io"><u>Email Me</u></a>. I'm always looking for new work.</div>
+
+      <a class="eng-v" href="javascript:toggleDiv('q-5');" ALIGN="CENTER">
+        <em class="quote">Where can I find more of your work?</em></a>
+      <div class="gr-underverse" id="q-5">You can see some of my web work on <a href="https://github.com/samwisegrangee" target="_blank"><u>GitHub</u></a> and some of my photography and drawings on <a href="https://www.instagram.com/samwisegrangee/" target="_blank"><u>Instagram</u></a>. </div>
+
+
+      <div class="xtra-space"></div>
     </div>
     </div>
+  <div class="footer">
 
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

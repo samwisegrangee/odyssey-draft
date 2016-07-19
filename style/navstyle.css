@@ -1,21 +1,28 @@
 /*Language Toggle*/
-.lang-nav, .drop-nav {
+.home-nav {
+  position: relative;
+  display: inline;
+  float: left;
+  z-index: 1;
+  top: 20px;
+}
+.lang-nav, .drop-nav, .home-nav-scrolled {
   position: fixed;
   display: inline-block;
   z-index: 1;
-  top: 3%;
+  top: 20px;
 }
 .lang-nav {
   right: 10%;
 }
-.drop-nav {
+.drop-nav, .home-nav, .home-nav-scrolled {
   left: 10%;
 }
-.drop-nav, .drop-icon, .lang-btn, .gr-btn, .eng-btn {
+.drop-nav, .drop-icon, .lang-btn, .gr-btn, .eng-btn, .home-nav, .home-nav-scrolled {
   font-family: 'Open Sans', serif;
   letter-spacing: .15em;
   font-weight: 100;
-  font-size: 1.25em;
+  font-size: 1.15em;
   color: white;
   border-style: none;
   border-color: none;
@@ -53,14 +60,11 @@
   padding-left: 15px;
   display:block;
 }
-.drop-links:hover .drop-icon {
-  background-color: 1px solid rgb(42, 98, 125);
-}
-.drop-nav:hover .drop-links {/*The box in which the links are/opacity: 1;*/
-  opacity: 1;
-}
-.drop-nav:hover .drop-icon {
+.drop-links:hover .drop-icon, .home-nav-scrolled:hover .drop-icon {
   background-color: rgb(42, 98, 125);
+}
+.drop-nav:hover .drop-links, .home-nav-scrolled:hover .drop-links {/*The box in which the links are/opacity: 1;*/
+  opacity: 1;
 }
 .drop-links a:hover {
   text-shadow: 1px 1px 2px #000000;
@@ -68,14 +72,7 @@
 button:focus {/*Gets rid of the outline on the menu/lang buttons*/
   outline: none;
 }
-#home-nav {
-  position: relative;
-  display: inline;
-  float: left;
-  z-index: 1;
-  margin-top: 25px;
-  left: 8%;
-}
+
 /*Side Nav arrows*/
 .arrow {
   position: fixed;

@@ -21,7 +21,6 @@
 .num {
   font-family: 'Open Sans', serif;
   color: rgb(156, 153, 157);
-  margin-bottom: 15px;
 }
 .num:hover {
   color: rgb(42, 98, 125);
@@ -53,11 +52,14 @@
 .book-link {
   font-family: 'Open Sans', serif;
   font-size: 20px;
-  color: rgb(42, 98, 125);
-  padding: 5px 20px;
+  color: white;
+  padding: 10px 20px;
+  background-color: rgba(42, 98, 125, 0.5);
   border: #d7c7b2;
   transition: border, 500ms, ease-in-out, 300ms;
+  transition: background-color, 500ms, ease-in-out, 300ms;
 }
 .book-link:hover {
   border: 1px solid rgb(42, 98, 125);
+  background-color: rgb(42, 98, 125);
 }
