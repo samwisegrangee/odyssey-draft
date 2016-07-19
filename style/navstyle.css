@@ -18,7 +18,7 @@
 .drop-nav, .home-nav, .home-nav-scrolled {
   left: 10%;
 }
-.drop-nav, .drop-icon, .lang-btn, .gr-btn, .eng-btn, .home-nav, .home-nav-scrolled {
+.drop-icon, .lang-btn, .gr-btn, .eng-btn, .home-nav, .home-nav-scrolled {
   font-family: 'Open Sans', serif;
   letter-spacing: .15em;
   font-weight: 100;
@@ -38,16 +38,24 @@
 .gr-btn:hover, .eng-btn:hover, .gr-btn:active, .eng-btn:active {
   text-shadow: 1px 1px 2px #000000;
 }
-.lang-btn:hover {
-  background: rgb(42, 98, 125);
+.lang-btn:hover,
+.drop-icon:hover,
+.drop-links:hover .drop-icon,
+.home-nav-scrolled:hover .drop-icon  {
+  background-color: rgba(42, 98, 125, 0.5);
 }
-.gr-btn, .eng-btn, .drop-icon {
+.gr-btn, .eng-btn {
   background-color: transparent;
 }
 /*Drop Nav content*/
 .drop-links { /*The box in which the links are/opacity: 0;*/
+  font-family: 'Open Sans', serif;
+  letter-spacing: .15em;
+  font-weight: 100;
+  font-size: 1em;
+  color: white;
   position: absolute;
-  background: rgb(42, 98, 125);
+  background-color: rgba(42, 98, 125, 0.5);
   min-width: 125px;
   opacity: 0;
   transition-property: opacity;
@@ -57,11 +65,9 @@
 }
 .drop-links a { /*The links themselves*/
   padding-bottom: 15px;
-  padding-left: 15px;
+  padding-left: 13px;
   display:block;
-}
-.drop-links:hover .drop-icon, .home-nav-scrolled:hover .drop-icon {
-  background-color: rgb(42, 98, 125);
+  width: 125px;
 }
 .drop-nav:hover .drop-links, .home-nav-scrolled:hover .drop-links {/*The box in which the links are/opacity: 1;*/
   opacity: 1;

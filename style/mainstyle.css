@@ -109,12 +109,9 @@ a {
   height: 100px;
   background-color: rgb(42, 98, 125);
 }
-.tight-box {
-  margin-left: 20%;
-  margin-right: 20%;
-}
 .quote-box {
   margin-left: 15%;
+  margin-right: 15%;
 }
 .quote-text {
   font-family: 'Cardo', serif;
@@ -123,4 +120,14 @@ a {
   position: relative;
   padding-top: 25%;
   padding-left: 150px;
+}
+.about-graf, .q {
+  margin-left: 17%;
+  margin-right: 17%;
+}
+.q {
+  font-family: 'Cardo', serif;
+  color: rgb(42, 98, 125);
+  font-size: 1.1em;
+  display: none;
 }
