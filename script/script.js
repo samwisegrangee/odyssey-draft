@@ -1,5 +1,3 @@
-//Make All BOOK page loads default to an "EN state" ('.eng-btn' pressed)
-
 $(document).ready(function(){
 	// Sticky nav bar
 	var hn = $(".home-nav");
