@@ -8,15 +8,23 @@
   color: rgb(42, 98, 125);
 }
 /*Applies to Seen*/
+.eng-h, .gr-h {
+  display: block;
+  padding-bottom: 10px;
+}
 .eng-v, .gr-v {
   display: block;
   margin-right: 35px;
   margin-left: 50px;
   margin-top: 10px;
 }
-.eng-h, .gr-h {
-  display: block;
-  padding-bottom: 10px;
+.num {
+  font-family: 'Open Sans', serif;
+  color: rgb(156, 153, 157);
+  margin-bottom: 15px;
+}
+.num:hover {
+  color: rgb(42, 98, 125);
 }
 /*Applies to Unseen*/
 .gr-uh, .eng-uh, .gr-underverse, .eng-underverse {
@@ -24,14 +32,14 @@
 }
 .gr-underverse, .gr-uh {
   font-weight: 100;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 .eng-underverse, .eng-uh {
   padding-right: 20px;
   font-weight: 100;
 }
 .gr-underverse, .eng-underverse {
-  padding: 2px 50px 10px 60px;
+  padding: 2px 60px 10px 75px;
 }
 /*Applies to tops and bottoms*/
 .xtra-space {

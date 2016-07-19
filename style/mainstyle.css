@@ -54,9 +54,9 @@ header {
 .text {
   position: relative;
   background-color: #dfd1c0;
-  width: 800px;
-  margin: auto;
-  margin-bottom: 0px;
+  margin-right: 8%;
+  margin-left: 8%;
+  margin-bottom: 0;
 }
 p {
   font-family: 'Open Sans', serif;
@@ -72,7 +72,7 @@ p {
 }
 a {
     border: none;
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: lighter;
     color: inherit;
     font-family: inherit;
