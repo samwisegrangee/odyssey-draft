@@ -112,3 +112,9 @@ button:focus {/*Gets rid of the outline on the menu/lang buttons*/
 #l-arrow-box {
   left: 0px;
 }
+@media screen and (max-width: 768px) {
+  .arrow {
+    opacity: 1;
+  }
+
+}
