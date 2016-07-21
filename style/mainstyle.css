@@ -131,3 +131,9 @@ a {
   font-size: 1.1em;
   display: none;
 }
+.num {
+  font-family: 'Open Sans', serif;
+  color: rgb(156, 153, 157);
+  display: inline-block;
+  vertical-align: middle;
+}
