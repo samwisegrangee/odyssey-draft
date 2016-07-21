@@ -121,7 +121,7 @@ a {
   padding-top: 25%;
   padding-left: 150px;
 }
-.about-graf, .q {
+.about-graf, ul {
   margin-left: 17%;
   margin-right: 17%;
 }
@@ -130,10 +130,31 @@ a {
   color: rgb(42, 98, 125);
   font-size: 1.1em;
   display: none;
+  padding-left: 12px;
 }
+.q a {
+  font-size: 1.1em;
+}
+
 .num {
   font-family: 'Open Sans', serif;
   color: rgb(156, 153, 157);
   display: inline-block;
   vertical-align: middle;
+}
+ul {
+  list-style: none;
+  margin-left: 12%;
+  margin-right: 17%;
+}
+.no-bullet {
+  padding-left: 12px;
+}
+.no-bullet::before {
+  content: " ";
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
+  padding-right: 20px;
+  padding-bottom: 15px;
 }
