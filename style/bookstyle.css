@@ -79,3 +79,9 @@ li::before {
   border: 1px solid rgb(42, 98, 125);
   background-color: rgb(42, 98, 125);
 }
+@media screen and (max-width: 800px) {
+  ol {
+    margin-left: 3%;
+    margin-right: 12%;
+  }
+}
