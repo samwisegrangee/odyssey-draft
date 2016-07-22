@@ -39,7 +39,7 @@ li::before {
     display: table-cell;
     text-align: right;
     vertical-align: middle;
-    padding-right: 20px;
+    padding-right: 25px;
     padding-bottom: 15px;
 }
 /*Applies to Unseen*/
@@ -52,6 +52,7 @@ li::before {
 }
 .eng-underverse, .eng-uh {
   font-weight: 100;
+  font-size: 1.25em;
 }
 .gr-underverse, .eng-underverse {
   padding: 2px 0px 10px 5px;
