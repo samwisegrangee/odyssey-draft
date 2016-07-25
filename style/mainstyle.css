@@ -87,7 +87,7 @@ a {
 .blockquote .num:hover {
   color: rgb(156, 153, 157);
 }
-.quote {
+.quote, .question {
   font-family: 'Cardo', serif;
   color: #4a4a4a;
 }
@@ -130,7 +130,6 @@ a {
   font-family: 'Cardo', serif;
   color: rgb(42, 98, 125);
   font-size: 1.1em;
-  display: none;
   padding-left: 12px;
 }
 .q a {
@@ -157,4 +156,7 @@ ul {
   vertical-align: middle;
   padding-right: 20px;
   padding-bottom: 15px;
+}
+.question {
+  font-size: 1.25em;
 }
